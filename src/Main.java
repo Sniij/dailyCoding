@@ -1,11 +1,9 @@
-import programmers.level1.A178871;
-
-import java.util.*;
+import programmers.level1.pass.P178871;
 
 public class Main {
     public static void main(String[] args) {
 
-        A178871 a178871 = new A178871();
-        a178871.main();
+        P178871 p178871 = new P178871();
+        p178871.test();
     }
 }
