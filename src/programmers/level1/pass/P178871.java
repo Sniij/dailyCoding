@@ -21,21 +21,29 @@ public class P178871 {
         List<String> playerList = new ArrayList<>(Arrays.asList(players));
         Map<String, Integer> hashMap = new HashMap<>();
 
+        // map에 모든 player, index 담기
         for (int i = 0; i < players.length; i++) {
             hashMap.put(players[i], i);
         }
 
+
         for (String calling : callings) {
 
-
+            // index 가져오기
             int idx = hashMap.get(calling);
+
+            // swap 할 index
             int idx2 = idx - 1 ;
+
+            // 보기 편하게 끔 변수에 담아놈
             String swap = playerList.get(idx);
             String swap2 = playerList.get(idx2);
 
+            // swap
             playerList.set(idx, swap2);
             playerList.set(idx2, swap);
 
+            // swap 한 index 에 맞게 map value-index 수정
             hashMap.put(swap, idx2);
             hashMap.put(swap2, idx);
 
