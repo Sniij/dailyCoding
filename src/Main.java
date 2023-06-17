@@ -1,3 +1,4 @@
+import programmers.level1.pass.P172928;
 import programmers.level1.pass.P176963;
 import programmers.level1.pass.P178871;
 
@@ -12,6 +13,8 @@ public class Main {
         P176963 p176963 = new P176963();
         //p176963.test();
 
+        P172928 p172928 = new P172928();
+        p172928.test();
 
 
 
