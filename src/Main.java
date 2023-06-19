@@ -8,7 +8,6 @@ public class Main {
 
 
         // pass 목록
-
         P178871 p178871 = new P178871();
         //p178871.test();
         P176963 p176963 = new P176963();
@@ -16,7 +15,8 @@ public class Main {
         P172928 p172928 = new P172928();
         //p172928.test();
         P161990 p161990 = new P161990();
-       // p161990.test();
+        p161990.test();
+
 
 
     }
