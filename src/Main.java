@@ -1,4 +1,4 @@
-import programmers.level1.fail.F161989;
+import programmers.level1.pass.P161989;
 import programmers.level1.pass.P161990;
 import programmers.level1.pass.P172928;
 import programmers.level1.pass.P176963;
@@ -18,7 +18,7 @@ public class Main {
         P161990 p161990 = new P161990();
         //p161990.test();
 
-        F161989 f161989 = new F161989();
-        f161989.test();
+        P161989 p161989 = new P161989();
+        p161989.test();
     }
 }

@@ -1,12 +1,6 @@
-package programmers.level1.fail;
+package programmers.level1.pass;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Stack;
-import java.util.stream.Collectors;
-
-public class F161989 {
+public class P161989 {
 
     /*
     * 문제 설명
