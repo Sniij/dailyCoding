@@ -1,11 +1,7 @@
-import programmers.level1.pass.P120956;
+import programmers.level1.fail.F120907;
+import programmers.level1.pass.*;
 import programmers.level1.fail.F150370;
 import programmers.level1.fail.F160586;
-import programmers.level1.pass.P161989;
-import programmers.level1.pass.P161990;
-import programmers.level1.pass.P172928;
-import programmers.level1.pass.P176963;
-import programmers.level1.pass.P178871;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,8 +21,10 @@ public class Main {
         //p161989.test();
 
         P120956 p120956 = new P120956();
-        p120956.test();
+        //p120956.test();
 
+        P120583 p120583 = new P120583();
+        p120583.test();
 
 
         // fail 목록
@@ -35,6 +33,9 @@ public class Main {
 
         F150370 f150370 = new F150370();
         //f150370.test();
+
+        F120907 f120907 = new F120907();
+        //f120907.test();
 
     }
 }
