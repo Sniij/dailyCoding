@@ -1,3 +1,4 @@
+import programmers.level1.pass.P120830;
 import programmers.level1.fail.F120907;
 import programmers.level1.pass.*;
 import programmers.level1.fail.F150370;
@@ -24,8 +25,10 @@ public class Main {
         //p120956.test();
 
         P120583 p120583 = new P120583();
-        p120583.test();
+        //p120583.test();
 
+        P120830 p120830 = new P120830();
+        p120830.test();
 
         // fail 목록
         F160586 f160586 = new F160586();
@@ -35,7 +38,7 @@ public class Main {
         //f150370.test();
 
         F120907 f120907 = new F120907();
-        f120907.test();
+       // f120907.test();
 
     }
 }
