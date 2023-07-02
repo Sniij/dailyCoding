@@ -1,4 +1,4 @@
-package programmers.level0.fail;
+package programmers.level0.pass;
 
 import java.util.Scanner;
 
