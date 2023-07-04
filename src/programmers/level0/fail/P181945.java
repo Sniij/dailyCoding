@@ -2,7 +2,7 @@ package programmers.level0.fail;
 
 import java.util.Scanner;
 
-public class F181945 {
+public class P181945 {
 
     public void test(){
         solution();
