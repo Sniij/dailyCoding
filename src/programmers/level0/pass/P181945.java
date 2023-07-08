@@ -1,8 +1,8 @@
-package programmers.level0.fail;
+package programmers.level0.pass;
 
 import java.util.Scanner;
 
-public class F181945 {
+public class P181945 {
 
     public void test(){
         solution();
