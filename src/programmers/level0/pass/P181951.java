@@ -11,6 +11,7 @@ public class P181951 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+        
         System.out.println("a = "+a +"\n" + "b = " + b);
     }
 }
