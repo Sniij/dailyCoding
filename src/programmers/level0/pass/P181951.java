@@ -10,7 +10,6 @@ public class P181951 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-
         
         System.out.println("a = "+a +"\n" + "b = " + b);
     }
