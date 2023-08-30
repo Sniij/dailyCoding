@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class F160586 {
+public class P160586 {
 
     public void test(){
 
