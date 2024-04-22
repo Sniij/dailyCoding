@@ -1,36 +1,26 @@
-import java.util.StringTokenizer;
-
 class Solution {
+        public String solution(String s) {
+            StringBuilder answer = new StringBuilder();
 
-    public static String solution(String s) {
-        StringTokenizer st = new StringTokenizer(s, " ", true);
-        StringBuilder sb = new StringBuilder();
-
-        while (st.hasMoreTokens()) {
-            String str = st.nextToken();
-            if (str.startsWith(" ")) {
-                sb.append(str);
-                continue;
+            for(int i = 0; i < s.length(); i++) {
+                String tmp = String.valueOf(s.charAt(i)).toLowerCase();
+                try {
+                    Integer.parseInt(tmp);
+                    answer.append(tmp);
+                } catch (Exception e) {
+                    for (int j = i; j < s.length(); j++) {
+                        char c = s.charAt(j);
+                        if (c == ' ') {
+                            answer.append(c);
+                            answer.append(String.valueOf(s.charAt(j+1)).toUpperCase());
+                            i = j + 1;
+                            break;
+                        } else {
+                            answer.append(c);
+                        }
+                    }
+                }
             }
-            if (isStartWithNumber(str)) {
-                sb.append(str.charAt(0));
-            } else if (isStartWithLowerAlpha(str)) {
-                sb.append((char)(str.charAt(0) - 32));
-            } else{
-                sb.append(str.charAt(0));
-            }
-            sb.append(str.substring(1).toLowerCase());
+            return answer.toString();
         }
-
-        return sb.toString();
-    }
-
-    private static boolean isStartWithLowerAlpha(String str) {
-        return str.charAt(0) >= 'a' && str.charAt(0) <= 'z';
-    }
-
-    private static boolean isStartWithNumber(String str) {
-        return str.charAt(0) >= '0' && str.charAt(0) <= '9';
-    }
-
 }
