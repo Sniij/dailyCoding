@@ -1,6 +1,5 @@
 package programmers.level0.fail;
 
-
-public class F138476 {
+public class F4680 {
 
 }
